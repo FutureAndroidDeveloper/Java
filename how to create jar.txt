@@ -1,0 +1,7 @@
+out/production/Lab07
+
+	здесь создать manifest.txt
+		Main-Class: by.bntu.fitr.povt.bedouins.javalabs.lab9.taskE.controller.Lab09E
+
+
+jar cvmf manifest.txt LAB09B.jar by

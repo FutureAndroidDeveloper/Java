@@ -1,0 +1,3 @@
+Main-Class: by.bntu.fitr.povt.bedouins.javalabs.lab9.taskE.controller.Lab09E
+
+
