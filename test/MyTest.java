@@ -1,7 +1,5 @@
-import by.bntu.fitr.povt.bedouins.javalabs.lab10.main.model.entity.ShoppingCart;
-import by.bntu.fitr.povt.bedouins.javalabs.lab10.main.model.entity.Vegetable;
-import by.bntu.fitr.povt.bedouins.javalabs.lab10.main.model.logic.Manager;
-import by.bntu.fitr.povt.kirill.javatask.Task02.task03.MyVector;
+
+import by.bntu.fitr.povt.kirill.javatask.Task02.task04.model.MatrixHandler;
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -10,38 +8,12 @@ import org.junit.Test;
  */
 public class MyTest {
     @Test
-    public void testCorrectValues() {
-        int excepted = 20;
+    public void testNull() {
+        int[][] nullArray = null;
 
-        ShoppingCart cart = new ShoppingCart();
-        cart.push(new Vegetable("Cucumber", 10));
-        cart.push(new Vegetable("Cabbage", 20));
-        cart.push(new Vegetable("Tomato", 30));
+        int actual = MatrixHandler.findMinColumn(nullArray, 4);
 
-        double actual = Manager.calculateAvgCost(cart);
-
-        Assert.assertSame(excepted, (int) actual);
+        Assert.assertEquals(-1, actual);
     }
 
-    @Test
-    public void testEmptyCart() {
-        int excepted = 0;
-        ShoppingCart cart = new ShoppingCart();
-
-        double actual = Manager.calculateAvgCost(cart);
-
-        Assert.assertSame(excepted, (int) actual);
-    }
-
-    @Test
-    public void testNullCart() {
-        int excepted = 0;
-        ShoppingCart cart = new ShoppingCart();
-        cart.push(null);
-        cart.push(null);
-
-        double actual = Manager.calculateAvgCost(cart);
-
-        Assert.assertSame(excepted, (int) actual);
-    }
 }
