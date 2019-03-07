@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f4cbc0e-f4a7-4a91-9d12-a701f49586b1" name="Default" comment="">
-      <change type="DELETED" beforePath="D:\2 курс\intelij IDEA\IDEA\Lab07\out\production\Lab07\by\bntu\fitr\povt\bedouins\javalabs\lab10\main\model\logic\Manager.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\2 курс\intelij IDEA\IDEA\Lab07\out\test\Lab07\MyTest.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Lab07/by/bntu/fitr/povt/bedouins/javalabs/lab10/main/controller/Lab10.class" afterPath="$PROJECT_DIR$/out/production/Lab07/by/bntu/fitr/povt/bedouins/javalabs/lab10/main/controller/Lab10.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Lab07/by/bntu/fitr/povt/bedouins/javalabs/lab10/main/model/entity/ShoppingCart.class" afterPath="$PROJECT_DIR$/out/production/Lab07/by/bntu/fitr/povt/bedouins/javalabs/lab10/main/model/entity/ShoppingCart.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Lab07/by/bntu/fitr/povt/bedouins/javalabs/lab10/main/model/entity/Vegetable.class" afterPath="$PROJECT_DIR$/out/production/Lab07/by/bntu/fitr/povt/bedouins/javalabs/lab10/main/model/entity/Vegetable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/by/bntu/fitr/povt/bedouins/javalabs/lab10/main/controller/Lab10.java" afterPath="$PROJECT_DIR$/src/by/bntu/fitr/povt/bedouins/javalabs/lab10/main/controller/Lab10.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/by/bntu/fitr/povt/bedouins/javalabs/lab10/main/model/logic/Manager.java" afterPath="$PROJECT_DIR$/src/by/bntu/fitr/povt/bedouins/javalabs/lab10/main/model/logic/Manager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/MyTest.java" afterPath="$PROJECT_DIR$/test/MyTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/by/bntu/fitr/povt/bedouins/javalabs/lab10/main/model/entity/ShoppingCart.java" afterPath="$PROJECT_DIR$/src/by/bntu/fitr/povt/bedouins/javalabs/lab10/main/model/entity/ShoppingCart.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/by/bntu/fitr/povt/bedouins/javalabs/lab10/main/model/entity/Vegetable.java" afterPath="$PROJECT_DIR$/src/by/bntu/fitr/povt/bedouins/javalabs/lab10/main/model/entity/Vegetable.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -33,11 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ShoppingCart.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ShoppingCart.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/by/bntu/fitr/povt/bedouins/javalabs/lab10/main/model/entity/ShoppingCart.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.21794872">
-              <caret line="71" column="44" selection-start-line="71" selection-start-column="44" selection-end-line="71" selection-end-column="44" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="171" column="5" selection-start-line="171" selection-start-column="5" selection-end-line="171" selection-end-column="5" />
               <folding>
                 <element signature="method#ShoppingCart#1;class#ShoppingCart#0" expanded="false" />
                 <element signature="method#ShoppingCart#2;class#ShoppingCart#0" expanded="false" />
@@ -51,11 +43,24 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Object.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/Object.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="99" column="28" selection-start-line="99" selection-start-column="28" selection-end-line="99" selection-end-column="28" />
+              <folding>
+                <element signature="e#5748#5749#0" expanded="true" />
+                <element signature="e#5784#5785#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="ArrayList.java" pinned="false" current-in-tab="false">
         <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/ArrayList.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="301" column="7" selection-start-line="301" selection-start-column="7" selection-end-line="301" selection-end-column="7" />
+              <caret line="317" column="29" selection-start-line="317" selection-start-column="29" selection-end-line="317" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -71,12 +76,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Vegetable.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Vegetable.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/by/bntu/fitr/povt/bedouins/javalabs/lab10/main/model/entity/Vegetable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-              <folding />
+            <state vertical-scroll-proportion="0.34285715">
+              <caret line="51" column="5" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
+              <folding>
+                <element signature="method#hashCode#0;class#Vegetable#0" expanded="false" />
+                <element signature="method#equals#0;class#Vegetable#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -155,15 +163,15 @@
         <option value="$PROJECT_DIR$/src/by/bntu/fitr/povt/kirill/javatask/Task02/task03/Task03.java" />
         <option value="$PROJECT_DIR$/test/MyTestClass.java" />
         <option value="$PROJECT_DIR$/test/Test.java" />
-        <option value="$PROJECT_DIR$/src/by/bntu/fitr/povt/bedouins/javalabs/lab10/main/model/entity/Vegetable.java" />
         <option value="$PROJECT_DIR$/src/by/bntu/fitr/povt/bedouins/javalabs/lab10/main/model/logic/Manager.java" />
         <option value="$PROJECT_DIR$/src/by/bntu/fitr/povt/kirill/javatask/Task02/task04/view/Printer.java" />
         <option value="$PROJECT_DIR$/src/by/bntu/fitr/povt/kirill/javatask/Task02/task04/controller/Task.java" />
         <option value="$PROJECT_DIR$/src/by/bntu/fitr/povt/kirill/javatask/Task02/task04/model/MatrixHandler.java" />
         <option value="$PROJECT_DIR$/src/by/bntu/fitr/povt/bedouins/javalabs/lab10/main/controller/Lab10.java" />
-        <option value="$PROJECT_DIR$/src/by/bntu/fitr/povt/bedouins/javalabs/lab10/main/model/entity/ShoppingCart.java" />
         <option value="$PROJECT_DIR$/test/MyTest.java" />
         <option value="$PROJECT_DIR$/test/Task04Test.java" />
+        <option value="$PROJECT_DIR$/src/by/bntu/fitr/povt/bedouins/javalabs/lab10/main/model/entity/ShoppingCart.java" />
+        <option value="$PROJECT_DIR$/src/by/bntu/fitr/povt/bedouins/javalabs/lab10/main/model/entity/Vegetable.java" />
       </list>
     </option>
   </component>
@@ -841,16 +849,16 @@
       <workItem from="1551092427407" duration="5399000" />
       <workItem from="1551371511512" duration="136000" />
       <workItem from="1551680493031" duration="5688000" />
-      <workItem from="1551694534436" duration="981000" />
+      <workItem from="1551694534436" duration="3882000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87424000" />
+    <option name="totallyTimeSpent" value="90325000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -860,10 +868,10 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5778491" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.07865169" sideWeight="0.5408472" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.07865169" sideWeight="0.5408472" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26928896" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22541603" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1209,13 +1217,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/Object.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33277312">
-          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/by/bntu/fitr/povt/kirill/javatask/Task02/task04/controller/Task.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1240,22 +1241,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/bntu/fitr/povt/bedouins/javalabs/lab10/main/model/entity/Vegetable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/bntu/fitr/povt/bedouins/javalabs/lab10/main/model/logic/Manager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/by/bntu/fitr/povt/bedouins/javalabs/lab10/main/controller/Lab10.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1263,14 +1248,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="301" column="7" selection-start-line="301" selection-start-column="7" selection-end-line="301" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1292,10 +1269,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="317" column="29" selection-start-line="317" selection-start-column="29" selection-end-line="317" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="99" column="28" selection-start-line="99" selection-start-column="28" selection-end-line="99" selection-end-column="28" />
+          <folding>
+            <element signature="e#5748#5749#0" expanded="true" />
+            <element signature="e#5784#5785#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/by/bntu/fitr/povt/bedouins/javalabs/lab10/main/model/entity/ShoppingCart.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.21794872">
-          <caret line="71" column="44" selection-start-line="71" selection-start-column="44" selection-end-line="71" selection-end-column="44" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="171" column="5" selection-start-line="171" selection-start-column="5" selection-end-line="171" selection-end-column="5" />
           <folding>
             <element signature="method#ShoppingCart#1;class#ShoppingCart#0" expanded="false" />
             <element signature="method#ShoppingCart#2;class#ShoppingCart#0" expanded="false" />
@@ -1304,6 +1300,25 @@
             <element signature="method#size#0;class#ShoppingCart#0" expanded="false" />
             <element signature="method#size#1;class#ShoppingCart#0" expanded="false" />
             <element signature="method#toString#0;class#ShoppingCart#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/bntu/fitr/povt/bedouins/javalabs/lab10/main/model/logic/Manager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/bntu/fitr/povt/bedouins/javalabs/lab10/main/model/entity/Vegetable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.34285715">
+          <caret line="51" column="5" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
+          <folding>
+            <element signature="method#hashCode#0;class#Vegetable#0" expanded="false" />
+            <element signature="method#equals#0;class#Vegetable#0" expanded="false" />
           </folding>
         </state>
       </provider>

@@ -61,4 +61,30 @@ public class Vegetable {
     public String toString() {
         return String.format("Name: %10s\tcoast: %d%c", name, cost, CURRENCY_ICON);
     }
+
+    @Override
+    public int hashCode() {
+        int hash = 3;
+
+        hash = 53 * hash + (this.name != null ? this.name.hashCode() : 0);
+        hash = 53 * hash + this.cost;
+
+        return hash;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj == this) {
+            return true;
+        }
+
+        if (obj != null || obj.getClass() != this.getClass()) {
+            return false;
+        }
+
+        Vegetable vegetable = (Vegetable) obj;
+        return cost == vegetable.cost && (name == vegetable.name ||
+                (name != null && name.equals(vegetable.getName())));
+
+    }
 }

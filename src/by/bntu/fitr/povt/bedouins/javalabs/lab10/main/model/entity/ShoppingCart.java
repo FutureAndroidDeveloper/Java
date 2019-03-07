@@ -1,7 +1,7 @@
 package by.bntu.fitr.povt.bedouins.javalabs.lab10.main.model.entity;
 
 
-import java.util.ArrayList;
+
 
 public class ShoppingCart {
     public static final String LIST_INFO_TITLE = "List of vegetables:\n";
@@ -98,11 +98,12 @@ public class ShoppingCart {
         }
     }
 
-//    public void delete(Vegetable vegetable) {
-//        for (Vegetable vegetableInCart: vegetablesCart) {
-//            if (vegetable.)
-//        }
-//    }
+    public void delete(Vegetable vegetable) {
+        for (Vegetable vegetableInCart: vegetablesCart) {
+            if (vegetable.equals())
+                hashCode()
+        }
+    }
 //    ArrayList
 //    public boolean isEmpty() {
 //        return size() == 0;
