@@ -1,7 +1,7 @@
 package by.bntu.fitr.povt.bedouins.javalabs.lab10.main.model.entity;
 
 
-
+import java.util.ArrayList;
 
 public class ShoppingCart {
     public static final String LIST_INFO_TITLE = "List of vegetables:\n";
@@ -98,29 +98,69 @@ public class ShoppingCart {
         }
     }
 
-    public void delete(Vegetable vegetable) {
-        for (Vegetable vegetableInCart: vegetablesCart) {
-            if (vegetable.equals())
-                hashCode()
+    public boolean remove(Object obj) {
+        if (obj != null) {
+            for (int index = 0; index < size(); index++)
+                if (obj.equals(vegetablesCart[index])) {
+                    fastRemove(index);
+                    return true;
+                }
         }
+
+        return false;
     }
-//    ArrayList
-//    public boolean isEmpty() {
-//        return size() == 0;
-//    }
-//
-//    public int indexOf(Vegetable vegetable) {
-//        if (vegetable == null) {
-//            for (int i = 0; i < size(); i++)
-//                if (elementData[i]==null)
-//                    return i;
-//        } else {
-//            for (int i = 0; i < size(); i++)
-//                if (vegetable.equals(elementData[i]))
-//                    return i;
-//        }
-//        return -1;
-//    }
+
+    public boolean remove(int index) {
+        if (rangeCheck(index)) {
+            fastRemove(index);
+            return true;
+        }
+
+        return false;
+    }
+
+    private boolean rangeCheck(int index) {
+        if (index >= size())
+            return false;
+
+        return true;
+    }
+
+    private void fastRemove(int index) {
+        vegetablesCart[index] = null;
+
+        for (; index < size() - 1; index++) {
+            vegetablesCart[index] = vegetablesCart[index + 1];
+        }
+
+        vegetablesCart[size() - 1] = null;
+    }
+
+    public boolean isEmpty() {
+        return size() == 0;
+    }
+
+    public int indexOf(Object obj) {
+        if (obj == null) {
+            for (int i = 0; i < size(); i++)
+                if (vegetablesCart[i] == null)
+                    return i;
+        } else {
+            for (int i = 0; i < size(); i++)
+                if (obj.equals(vegetablesCart[i]))
+                    return i;
+        }
+
+        return -1;
+    }
+
+    public Object get(int index) {
+        if (rangeCheck(index)) {
+            return vegetablesCart[index];
+        }
+
+        return null;
+    }
 
     private int grow() {
         return vegetablesCart.length * 3 / 2 + 1;
@@ -170,6 +210,4 @@ public class ShoppingCart {
 
         return cartInfo.toString();
     }
-
-    // перебор
 }

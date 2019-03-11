@@ -78,7 +78,9 @@ public class Vegetable {
             return true;
         }
 
-        if (obj != null || obj.getClass() != this.getClass()) {
+        if (obj == null || obj.getClass() != this.getClass()) {
+            System.out.println(obj.getClass().getSimpleName());
+            System.out.println(this.getClass().getSimpleName());
             return false;
         }
 

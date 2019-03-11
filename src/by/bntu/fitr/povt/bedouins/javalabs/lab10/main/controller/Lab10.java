@@ -3,6 +3,7 @@ package by.bntu.fitr.povt.bedouins.javalabs.lab10.main.controller;
 import by.bntu.fitr.povt.bedouins.javalabs.lab10.main.model.entity.ShoppingCart;
 import by.bntu.fitr.povt.bedouins.javalabs.lab10.main.model.entity.Vegetable;
 //import by.bntu.fitr.povt.bedouins.javalabs.lab10.main.model.logic.Manager;
+import by.bntu.fitr.povt.bedouins.javalabs.lab10.main.model.logic.Manager;
 import by.bntu.fitr.povt.bedouins.javalabs.lab7.lab0701.view.Printer;
 
 /**
@@ -35,11 +36,37 @@ public class Lab10 {
         System.out.println("\n");
 
         String[] names = {"A", "B", "C", "D", "E", "F", "G", "H", "K", "J", "L", "M", "Z"};
-        int[] coasts = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13};
+        int[] coasts = {16, 22, 3, 42, 5, 6, 77, 8, 91, 10, 11, 12, 13};
 
         for (int i = 0; i <= 12; i++) {
             cart.add(new Vegetable(names[i], coasts[i]));
         }
+
+        System.out.println(cart.length());
+        System.out.println(cart.size());
+        System.out.println(cart);;
+        System.out.println("\n");
+
+        Vegetable deletedVegetable = new Vegetable("A", 16);
+
+
+
+        cart.remove(deletedVegetable);
+
+        System.out.println(cart.length());
+        System.out.println(cart.size());
+        System.out.println(cart);;
+        System.out.println("\n");
+
+        cart.remove(0);
+
+        System.out.println(cart.length());
+        System.out.println(cart.size());
+        System.out.println(cart);;
+        System.out.println("\n");
+
+
+        Manager.sortByCost(cart);
 
         System.out.println(cart.length());
         System.out.println(cart.size());
@@ -85,6 +112,8 @@ public class Lab10 {
 //        System.out.println(zeroCapacityCart.length());
 //        System.out.println(zeroCapacityCart.size());
 //        zeroCapacityCart.toString();
+
+
 
 
 
